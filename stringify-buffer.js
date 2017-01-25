@@ -32,7 +32,7 @@ function verifyEncodings(encodings) {
  * encodings](https://nodejs.org/api/buffer.html#buffer_buffers_and_character_encodings) are used
  * @return {Object.<string, string>} a hash with a string value of the buffer for each of the supplied encodings
  */
-module.exports = function stringifyBuffer(buf, encodings) {
+exports = module.exports = function stringifyBuffer(buf, encodings) {
   if (encodings != null) verifyEncodings(encodings)
   else encodings = allEncodings
 
@@ -42,3 +42,12 @@ module.exports = function stringifyBuffer(buf, encodings) {
   }
   return encodings.reduce(stringify, {})
 }
+
+/**
+ * Returns an array of all valid Buffer encodings that are supported.
+ * This is the same array that is used if no `encodings` is passed to @see stringifyBuffers.
+ *
+ * @name stringifyBuffer.encodings
+ * @return {Array.<string>} all valid Buffer encodings
+ */
+exports.encodings = allEncodings
