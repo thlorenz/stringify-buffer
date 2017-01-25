@@ -1,6 +1,6 @@
 {
   "name": "stringify-buffer",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Converts a buffer a collection of strings, one for each possible encoding.",
   "main": "stringify-buffer.js",
   "scripts": {
