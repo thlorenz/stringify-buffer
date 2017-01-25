@@ -1,0 +1,34 @@
+{
+  "name": "stringify-buffer",
+  "version": "0.0.0",
+  "description": "Converts a buffer a collection of strings, one for each possible encoding.",
+  "main": "stringify-buffer.js",
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done",
+    "doc": "gendo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thlorenz/stringify-buffer.git"
+  },
+  "homepage": "https://github.com/thlorenz/stringify-buffer",
+  "dependencies": {},
+  "devDependencies": {
+    "ocat": "~0.1.0",
+    "spok": "~0.4.0",
+    "tape": "~4.6.3"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "http://thlorenz.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/thlorenz/stringify-buffer/blob/master/LICENSE"
+  },
+  "engine": {
+    "node": ">=0.10"
+  }
+}
