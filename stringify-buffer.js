@@ -1,4 +1,4 @@
-const allEncodings = [ 'ascii', 'utf8', 'utf16le', 'latin1', 'base64', 'hex' ]
+const allEncodings = [ 'ascii', 'utf8', 'utf16le', 'binary', 'base64', 'hex' ]
 
 function verifyEncodings(encodings) {
   if (!Array.isArray(encodings)) {

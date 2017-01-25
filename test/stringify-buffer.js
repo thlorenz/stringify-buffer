@@ -18,7 +18,7 @@ test('\nempty buffer, default encodings', function(t) {
     { ascii: ''
     , utf8: ''
     , utf16le: ''
-    , latin1: ''
+    , binary: ''
     , base64: ''
     , hex: '' })
   t.end()
@@ -36,7 +36,7 @@ test('\none char buffer, default encodings', function(t) {
     { ascii: 'a'
     , utf8: 'a'
     , utf16le: ''
-    , latin1: 'a'
+    , binary: 'a'
     , base64: 'YQ=='
     , hex: '61' })
   t.end()
@@ -48,7 +48,7 @@ test('\nhex buffer, default encodings', function(t) {
     { ascii: 'Love trumps hate!'
     , utf8: 'Love trumps hate!'
     , utf16le: '潌敶琠畲灭⁳慨整'
-    , latin1: 'Love trumps hate!'
+    , binary: 'Love trumps hate!'
     , base64: 'TG92ZSB0cnVtcHMgaGF0ZSE='
     , hex: '4c6f7665207472756d7073206861746521' })
   t.end()
