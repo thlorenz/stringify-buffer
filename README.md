@@ -36,6 +36,13 @@ the result a hash.
 
 Returns **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)&lt;[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String), [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)>** a hash with a string value of the buffer for each of the supplied encodings
 
+### stringifyBuffer.encodings
+
+Returns an array of all valid Buffer encodings that are supported.
+This is the same array that is used if no `encodings` is passed to @see stringifyBuffers.
+
+Returns **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)>** all valid Buffer encodings
+
 ## License
 
 MIT
